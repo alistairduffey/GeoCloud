@@ -1,0 +1,23 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Preamble
+  chapters:
+  - file: about
+  - file: background
+  - file: attribution
+- caption: Tutorials
+  chapters:
+  - file: Tutorials/AWS_ARISE
+- caption: Resources
+  chapters:
+  - file: CESM_vars
+- caption: A post-processed archive of SAI simulations
+  chapters: 
+  - file: Postprocessed_archive/ReadMe
+  - file: Postprocessed_archive/01a_ARISE_UKESM.ipynb
+  - file: Postprocessed_archive/01b_ARISE_CESM.ipynb
+  - file: Postprocessed_archive/02_G6sulfur.ipynb
