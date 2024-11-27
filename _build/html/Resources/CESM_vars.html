@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>SAI in a nutshell &#8212; GeoCloud; SRM research Community Book</title>
+    <title>Working with CESM outputs &#8212; GeoCloud; SRM research Community Book</title>
   
   
   
@@ -60,12 +60,12 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'Postprocessed_archive/ReadMe';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'Resources/CESM_vars';</script>
     <link rel="author" title="About these documents" href="../about.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="postprocess arise in UKESM1" href="01a_ARISE_UKESM.html" />
-    <link rel="prev" title="ARISE-1.5 in the cloud - using kerchunck to improve access" href="../Resources/AWS_ARISE_kerchunk.html" />
+    <link rel="next" title="ARISE-1.5 in the cloud - using kerchunck to improve access" href="AWS_ARISE_kerchunk.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="overview.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -181,18 +181,18 @@
 
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Resources</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../Resources/CESM_vars.html">Working with CESM outputs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../Resources/AWS_ARISE_kerchunk.html">ARISE-1.5 in the cloud - using kerchunck to improve access</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Working with CESM outputs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="AWS_ARISE_kerchunk.html">ARISE-1.5 in the cloud - using kerchunck to improve access</a></li>
 
 
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">A post-processed archive of SAI simulations</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">SAI in a nutshell</a></li>
-<li class="toctree-l1"><a class="reference internal" href="01a_ARISE_UKESM.html">postprocess arise in UKESM1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="01b_ARISE_CESM.html">postprocess arise in CESM2-WACCM</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02_G6sulfur.html">postprocess GeoMIP</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Postprocessed_archive/ReadMe.html">SAI in a nutshell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Postprocessed_archive/01a_ARISE_UKESM.html">postprocess arise in UKESM1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Postprocessed_archive/01b_ARISE_CESM.html">postprocess arise in CESM2-WACCM</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Postprocessed_archive/02_G6sulfur.html">postprocess GeoMIP</a></li>
 </ul>
 
     </div>
@@ -264,7 +264,7 @@
       
       
       
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FPostprocessed_archive/ReadMe.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FResources/CESM_vars.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -294,7 +294,7 @@
       
       
       
-      <li><a href="../_sources/Postprocessed_archive/ReadMe.md" target="_blank"
+      <li><a href="../_sources/Resources/CESM_vars.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -368,7 +368,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>SAI in a nutshell</h1>
+    <h1>Working with CESM outputs</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -382,9 +382,14 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="sai-in-a-nutshell">
-<h1>SAI in a nutshell<a class="headerlink" href="#sai-in-a-nutshell" title="Link to this heading">#</a></h1>
-<p>Code to post-process ARISE and G6sulfur simulations into a small archive of time-mean (and stds) maps for a set of the important climate metrics.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="working-with-cesm-outputs">
+<h1>Working with CESM outputs<a class="headerlink" href="#working-with-cesm-outputs" title="Link to this heading">#</a></h1>
+<p>A quick guide to working with CESM data for those familiar with CMIP6 data (CMORIZED).</p>
+<p>Below is a table showing the CESM name for common outputs variables, and how to convert between the two formats where they differ.</p>
+<p>For example..
+tas to TREFHT
+etc.</p>
+<p>[link to google sheets with full table]</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -400,7 +405,7 @@
         },
         kernelOptions: {
             name: "python3",
-            path: "./Postprocessed_archive"
+            path: "./Resources"
         },
         predefinedOutput: true
     }
@@ -418,20 +423,20 @@
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../Resources/AWS_ARISE_kerchunk.html"
+       href="overview.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">ARISE-1.5 in the cloud - using kerchunck to improve access</p>
+        <p class="prev-next-title">&lt;no title&gt;</p>
       </div>
     </a>
     <a class="right-next"
-       href="01a_ARISE_UKESM.html"
+       href="AWS_ARISE_kerchunk.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">postprocess arise in UKESM1</p>
+        <p class="prev-next-title">ARISE-1.5 in the cloud - using kerchunck to improve access</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

@@ -14,7 +14,9 @@ parts:
   - file: Tutorials/AWS_ARISE
 - caption: Resources
   chapters:
-  - file: CESM_vars
+  - file: Resources/overview
+  - file: Resources/CESM_vars
+  - file: Resources/AWS_ARISE_kerchunk.ipynb
 - caption: A post-processed archive of SAI simulations
   chapters: 
   - file: Postprocessed_archive/ReadMe
