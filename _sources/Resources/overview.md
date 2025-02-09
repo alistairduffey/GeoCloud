@@ -1,4 +1,4 @@
-# contents
+# Contents
 
 CESM_vars : a dictionary translating between variable names in CESM and CMOR names
 
