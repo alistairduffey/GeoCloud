@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -172,27 +172,22 @@
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Preamble</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="about.html">About</a></li>
-<li class="toctree-l1"><a class="reference internal" href="background.html">Some background info</a></li>
-<li class="toctree-l1"><a class="reference internal" href="attribution.html">How to cite this book</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Tutorials/AWS_ARISE.html">ARISE-1.5 in the cloud</a></li>
-
+<li class="toctree-l1"><a class="reference internal" href="useful_links.html">Useful links</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Resources</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Resources/CESM_vars.html">Working with CESM outputs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Resources/AWS_ARISE_kerchunk.html">ARISE-1.5 in the cloud - using kerchunck to improve access</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Resources/pp_archive/pp_archive_intro.html">An archive of pre-processed SAI simulations</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="Resources/pp_archive/pp_archive_usage_example.html">Introduction to working with the pre-processed SAI simulations archive</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Resources/AWS_ARISE/AWS_ARISE_intro.html">Using the AWS ARISE-SAI-1.5 simulations cloud archive</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="Resources/AWS_ARISE/AWS_ARISE_basic_example.html">Example usage of the AWS ARISE-1.5 data set</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Resources/AWS_ARISE/AWS_ARISE_kerchunk_test.html">ARISE-1.5 in the cloud - using kerchunck to improve access</a></li>
 
 
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">A post-processed archive of SAI simulations</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Postprocessed_archive/ReadMe.html">SAI in a nutshell</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Postprocessed_archive/01a_ARISE_UKESM.html">postprocess arise in UKESM1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Postprocessed_archive/01b_ARISE_CESM.html">postprocess arise in CESM2-WACCM</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Postprocessed_archive/02_G6sulfur.html">postprocess GeoMIP</a></li>
+</details></li>
 </ul>
 
     </div>
@@ -236,50 +231,18 @@
 <div class="article-header-buttons">
 
 
-
-
-
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
+<a href="https://github.com/alistairduffey/GeoCloud/tree/main" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
    title="Source repository"
-   data-bs-placement="left" data-bs-toggle="tooltip"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
   <i class="fab fa-github"></i>
   </span>
-<span class="btn__text-container">Repository</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fmarkdown.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
 
-<span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="btn__text-container">Open issue</span>
 </a>
-</li>
-      
-  </ul>
-</div>
 
 
 
@@ -516,7 +479,7 @@ You can learn a lot more at <a class="reference external" href="https://jupyterb
   <div class="footer-item">
     
 <p class="component-author">
-By Alistair Duffey, with contributions from xx
+By Alistair Duffey, supported by Reflective, with contributions from xx
 </p>
 
   </div>

@@ -7,19 +7,13 @@ parts:
 - caption: Preamble
   chapters:
   - file: about
-  - file: background
-  - file: attribution
-- caption: Tutorials
-  chapters:
-  - file: Tutorials/AWS_ARISE
+  - file: useful_links
 - caption: Resources
   chapters:
-  - file: Resources/overview
-  - file: Resources/CESM_vars
-  - file: Resources/AWS_ARISE_kerchunk.ipynb
-- caption: A post-processed archive of SAI simulations
-  chapters: 
-  - file: Postprocessed_archive/ReadMe
-  - file: Postprocessed_archive/01a_ARISE_UKESM.ipynb
-  - file: Postprocessed_archive/01b_ARISE_CESM.ipynb
-  - file: Postprocessed_archive/02_G6sulfur.ipynb
+  - file: Resources/pp_archive/pp_archive_intro.md
+    sections:
+    - file: Resources/pp_archive/pp_archive_usage_example.ipynb
+  - file: Resources/AWS_ARISE/AWS_ARISE_intro.md
+    sections:
+    - file: Resources/AWS_ARISE/AWS_ARISE_basic_example.ipynb
+    - file: Resources/AWS_ARISE/AWS_ARISE_kerchunk_test.ipynb
