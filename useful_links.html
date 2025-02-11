@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Working with CESM outputs &#8212; GeoCloud; SRM research Community Book</title>
+    <title>Useful links &#8212; GeoCloud; SRM research Community Book</title>
   
   
   
@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -60,12 +60,12 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'CESM_vars';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'useful_links';</script>
     <link rel="author" title="About these documents" href="about.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="SAI in a nutshell" href="Postprocessed_archive/ReadMe.html" />
-    <link rel="prev" title="ARISE-1.5 in the cloud" href="Tutorials/AWS_ARISE.html" />
+    <link rel="next" title="An archive of pre-processed SAI simulations" href="Resources/pp_archive/pp_archive_intro.html" />
+    <link rel="prev" title="About" href="about.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -170,26 +170,24 @@
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Preamble</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="about.html">About</a></li>
-<li class="toctree-l1"><a class="reference internal" href="background.html">Some background info</a></li>
-<li class="toctree-l1"><a class="reference internal" href="attribution.html">How to cite this book</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Tutorials/AWS_ARISE.html">ARISE-1.5 in the cloud</a></li>
-
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Useful links</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Resources</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Working with CESM outputs</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">A post-processed archive of SAI simulations</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="Postprocessed_archive/ReadMe.html">SAI in a nutshell</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Postprocessed_archive/01a_ARISE_UKESM.html">postprocess arise in UKESM1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Postprocessed_archive/01b_ARISE_CESM.html">postprocess arise in CESM2-WACCM</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Postprocessed_archive/02_G6sulfur.html">postprocess GeoMIP</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Resources/pp_archive/pp_archive_intro.html">An archive of pre-processed SAI simulations</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="Resources/pp_archive/pp_archive_usage_example.html">Introduction to working with the pre-processed SAI simulations archive</a></li>
+
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="Resources/AWS_ARISE/AWS_ARISE_intro.html">Using the AWS ARISE-SAI-1.5 simulations cloud archive</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="Resources/AWS_ARISE/AWS_ARISE_basic_example.html">Example usage of the AWS ARISE-1.5 data set</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Resources/AWS_ARISE/AWS_ARISE_kerchunk_test.html">ARISE-1.5 in the cloud - using kerchunck to improve access</a></li>
+
+
+</ul>
+</details></li>
 </ul>
 
     </div>
@@ -233,50 +231,18 @@
 <div class="article-header-buttons">
 
 
-
-
-
-<div class="dropdown dropdown-source-buttons">
-  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
-    <i class="fab fa-github"></i>
-  </button>
-  <ul class="dropdown-menu">
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
-   class="btn btn-sm btn-source-repository-button dropdown-item"
+<a href="https://github.com/alistairduffey/GeoCloud/tree/main" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
    title="Source repository"
-   data-bs-placement="left" data-bs-toggle="tooltip"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
 <span class="btn__icon-container">
   <i class="fab fa-github"></i>
   </span>
-<span class="btn__text-container">Repository</span>
-</a>
-</li>
-      
-      
-      
-      
-      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2FCESM_vars.html&body=Your%20issue%20content%20here." target="_blank"
-   class="btn btn-sm btn-source-issues-button dropdown-item"
-   title="Open an issue"
-   data-bs-placement="left" data-bs-toggle="tooltip"
->
-  
 
-<span class="btn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="btn__text-container">Open issue</span>
 </a>
-</li>
-      
-  </ul>
-</div>
 
 
 
@@ -291,7 +257,7 @@
       
       
       
-      <li><a href="_sources/CESM_vars.md" target="_blank"
+      <li><a href="_sources/useful_links.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -354,7 +320,9 @@
 <button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
 </button>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -365,11 +333,22 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Working with CESM outputs</h1>
+    <h1>Useful links</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#srm-modelling">SRM modelling:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data sources:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cmip-information">CMIP information:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#courses-and-code-resources">Courses and code resources</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -379,14 +358,43 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="working-with-cesm-outputs">
-<h1>Working with CESM outputs<a class="headerlink" href="#working-with-cesm-outputs" title="Link to this heading">#</a></h1>
-<p>A quick guide to working with CESM data for those familiar with CMIP6 data (CMORIZED).</p>
-<p>Below is a table showing the CESM name for common outputs variables, and how to convert between the two formats where they differ.</p>
-<p>For example..
-tas to TREFHT
-etc.</p>
-<p>[link to google sheets with full table]</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="useful-links">
+<h1>Useful links<a class="headerlink" href="#useful-links" title="Link to this heading">#</a></h1>
+<section id="srm-modelling">
+<h2>SRM modelling:<a class="headerlink" href="#srm-modelling" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://climate.envsci.rutgers.edu/geomip/">GeoMIP website</a></p></li>
+<li><p><a class="reference external" href="https://github.com/GeoMIP">GeoMIP github</a></p></li>
+<li><p><a class="reference external" href="https://simulator.reflective.org/?ssp_scenario=SSP2-4.5&amp;amp;temp_target=1.5&amp;amp;spatial_agg=WGI+Reference&amp;amp;decade_visualization=2091-2100&amp;amp;start_year=2035&amp;amp;ramp_up=10&amp;amp;var=tas">Reflective’s Simulator</a></p></li>
+</ul>
+</section>
+<section id="data-sources">
+<h2>Data sources:<a class="headerlink" href="#data-sources" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.cesm.ucar.edu/community-projects/arise-sai">CESM2-WACCM ARISE-SAI simulations</a></p></li>
+<li><p><a class="reference external" href="https://catalogue.ceda.ac.uk/uuid/26b89d8d76bd40bfbaf9fedfa383e9cf/">UKESM1 ARISE-SAI-1.5K simulations</a></p></li>
+<li><p>CMIP data (including ScenarioMIP and GeoMIP) - from ESGF, various nodes (<a class="reference external" href="https://aims2.llnl.gov/search">1</a>, <a class="reference external" href="https://esgf-ui.ceda.ac.uk/cog/projects/esgf-ceda/">2</a> etc.). See guide <a class="reference external" href="https://climate-datalab.org/cmip6-walkthrough/">here</a></p></li>
+<li><p><a class="reference external" href="https://zenodo.org/records/14816586">Extremes indices for the CESM ARISE simulations</a> - by Mari Tye</p></li>
+<li><p><a class="reference external" href="https://zenodo.org/records/14802397">Pre-processed archive of some common SAI simulation outputs</a> - by Reflective</p></li>
+</ul>
+</section>
+<section id="cmip-information">
+<h2>CMIP information:<a class="headerlink" href="#cmip-information" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.google.com/document/d/1yUx6jr9EdedCOLd--CPdTfGDwEwzPpCF6p1jRmqx-0Q/edit?tab=t.0">A useful guide to CMIP6 data set nomenclature</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/spreadsheets/d/1UUtoz6Ofyjlpx5LdqhKcwHFz2SGoTQV2_yekHyMfL9Y/edit?gid=1221485271#gid=1221485271">A list of CMIP6 variable names</a></p></li>
+<li><p><a class="reference external" href="https://docs.google.com/spreadsheets/d/13DHeTEH_8G08vxTMX1Fs-WbAA6SamBjDdh0fextdcGE/edit?gid=165882553#gid=165882553">A list of CMIP6 models and their sub-components</a></p></li>
+</ul>
+</section>
+<section id="courses-and-code-resources">
+<h2>Courses and code resources<a class="headerlink" href="#courses-and-code-resources" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://earth-env-data-science.github.io/intro.html">Earth and Environmental Data Science</a> (Ryan Abernathy)</p></li>
+<li><p><a class="reference external" href="https://cookbooks.projectpythia.org/">Project Pythia Cookbooks</a> - Example workflows for various advanced data science problems in the geosciences</p></li>
+<li><p><a class="reference external" href="https://comptools.climatematch.io/tutorials/intro.html">Climatematch</a> Various python resources for climate science</p></li>
+<li><p>[The Turing Way] (<a class="reference external" href="https://book.the-turing-way.org/">https://book.the-turing-way.org/</a>) - a guide to conducting reproducible, ethical and collaborative data science</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -420,20 +428,20 @@ etc.</p>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="Tutorials/AWS_ARISE.html"
+       href="about.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">ARISE-1.5 in the cloud</p>
+        <p class="prev-next-title">About</p>
       </div>
     </a>
     <a class="right-next"
-       href="Postprocessed_archive/ReadMe.html"
+       href="Resources/pp_archive/pp_archive_intro.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">SAI in a nutshell</p>
+        <p class="prev-next-title">An archive of pre-processed SAI simulations</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -444,6 +452,25 @@ etc.</p>
             
             
               
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#srm-modelling">SRM modelling:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sources">Data sources:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cmip-information">CMIP information:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#courses-and-code-resources">Courses and code resources</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
             
           </div>
           <footer class="bd-footer-content">
@@ -453,7 +480,7 @@ etc.</p>
   <div class="footer-item">
     
 <p class="component-author">
-By Alistair Duffey, with contributions from xx
+By Alistair Duffey, supported by Reflective, with contributions from xx
 </p>
 
   </div>

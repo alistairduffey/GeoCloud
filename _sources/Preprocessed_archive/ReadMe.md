@@ -3,6 +3,9 @@
 This repository contains code to post-process common SAI simulations into a small (~1GB), user-friendly, archive of data in an analysis-ready format. It also has a usage example notebook, showing how to use this pre-procesed archive to derive some common analyses of SAI scenarios. 
 
 
+Code to make the archive is stored  here: https://github.com/alistairduffey/SAI_pp_archive/tree/main
+ 
+
 Inputs:
 * ARISE-1.5K simulations (UKESM1 and CESM2-WACCM)
 * G6sulfur simulations for 6 models: UKESM1, CESM2-WACCM, IPSL-CM6A, MPI-ESM1-2 (High and low resolution), CESM2-WACCM, and CNRM-ESM2

@@ -1,7 +1,9 @@
 # Welcome to the GeoCloud
 
-A community hub for cloud-based, open-source and reproducible SRM research 
+A community hub for open-source and reproducible SRM research. 
 
+ 
+This Jupyter book is under development - see "how to contribute" section under "About"
 ... 
 
 
@@ -9,3 +11,4 @@ A community hub for cloud-based, open-source and reproducible SRM research
 
 ```{tableofcontents}
 ```
+
