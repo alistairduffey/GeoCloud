@@ -4,21 +4,25 @@
 format: jb-book
 root: intro
 parts:
-- caption: Preamble
-  chapters:
-  - file: about
-  - file: useful_links
-  - file: best_practice
-- caption: Resources
-  chapters:
-  - file: Resources/GeoMIP_from_ESGF/ESGF_intro.md
-    sections:
-    - file: Resources/GeoMIP_from_ESGF/search_and_load_from_esgf.ipynb
-    - file: Resources/GeoMIP_from_ESGF/G6sulfur_from_ESGF_example.ipynb
-  - file: Resources/pp_archive/pp_archive_intro.md
-    sections:
-    - file: Resources/pp_archive/pp_archive_usage_example.ipynb
-  - file: Resources/AWS_ARISE/AWS_ARISE_intro.md
-    sections:
-    - file: Resources/AWS_ARISE/AWS_ARISE_basic_example.ipynb
-    - file: Resources/AWS_ARISE/AWS_ARISE_kerchunk_test.ipynb
+  - caption: Preamble
+    chapters:
+      - file: about
+      - file: useful_links
+      - file: best_practice
+  - caption: Resources
+    chapters:
+      - file: Resources/GeoMIP_from_ESGF/ESGF_intro.md
+        sections:
+          - file: Resources/GeoMIP_from_ESGF/search_and_load_from_esgf.ipynb
+          - file: Resources/GeoMIP_from_ESGF/G6sulfur_from_ESGF_example.ipynb
+      - file: Resources/pp_archive/pp_archive_intro.md
+        sections:
+          - file: Resources/pp_archive/pp_archive_usage_example.ipynb
+      - file: Resources/AWS_ARISE/AWS_ARISE_intro.md
+        sections:
+          - file: Resources/AWS_ARISE/AWS_ARISE_basic_example.ipynb
+          - file: Resources/AWS_ARISE/AWS_ARISE_kerchunk_test.ipynb
+  - caption: Tutorials
+    chapters:
+      - file: Tutorials/GAUSS_example.ipynb
+      - file: Tutorials/s3tree.py
