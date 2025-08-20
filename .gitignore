@@ -1,7 +1,0 @@
-# enviroment files
-.venv
-env
-.env
-
-# Mac files
-.DS_Store
