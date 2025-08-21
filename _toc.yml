@@ -11,6 +11,9 @@ parts:
       - file: best_practice
   - caption: Resources
     chapters:
+      - file: Resources/GeoMIP_from_GoogleCloud/GCS_intro.md
+        sections:
+          - file: Resources/GeoMIP_from_GoogleCloud/G6sulfur_from_cloud_demo.ipynb
       - file: Resources/GeoMIP_from_ESGF/ESGF_intro.md
         sections:
           - file: Resources/GeoMIP_from_ESGF/search_and_load_from_esgf.ipynb
