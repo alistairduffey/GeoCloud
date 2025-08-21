@@ -25,4 +25,4 @@ parts:
   - caption: Tutorials
     chapters:
       - file: Tutorials/GAUSS_example.ipynb
-      - file: Tutorials/s3tree.py
+      - file: Tutorials/s3tree.md
